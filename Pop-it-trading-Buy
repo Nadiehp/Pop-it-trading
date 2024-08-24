@@ -10,6 +10,10 @@ local window = PabloLib:Create(
 local tab1 = window:CreateTab("By NbHp")
 --Buttons
 
+tab1:CreateButton("Entrar a zona VIP", function()
+game.Workspace.Map.VIP:Destroy()
+end)
+
 tab1:CreateButton("Buy Dart", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Pop-it-trading-buy/main/Buy%20Dart"))()
 end)
