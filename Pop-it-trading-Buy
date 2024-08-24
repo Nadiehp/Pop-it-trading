@@ -30,6 +30,14 @@ tab1:CreateButton("Squid", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Squid/main/Buy-Squid"))()
 end)
 
+tab1:CreateButton("Hello Snow", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Hello-Snow/main/Buy-Hello-Snow"))()
+end)
+
+tab1:CreateButton("Hello Scary", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Hello-Scary/main/Buy-Hello-Scary"))()
+end)
+
 tab1:CreateButton("Flower Rainbow", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Rainbow/main/Buy-Flower-Rainbow"))()
 end)
