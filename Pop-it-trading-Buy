@@ -1,0 +1,47 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Buy",
+"Enabled",
+"p"
+)
+
+--Tabs--
+
+local tab1 = window:CreateTab("By NbHp")
+--Buttons
+
+tab1:CreateButton("Buy Dart", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Pop-it-trading-buy/main/Buy%20Dart"))()
+end)
+
+tab1:CreateButton("Demorgan", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Demorgan/main/Buy-Demorgan"))()
+end)
+
+tab1:CreateButton("F", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-F/main/Buy-F"))()
+end)
+
+tab1:CreateButton("Squid", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Squid/main/Buy-Squid"))()
+end)
+
+tab1:CreateButton("Flower Rainbow", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Rainbow/main/Buy-Flower-Rainbow"))()
+end)
+
+tab1:CreateButton("Flower Black", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Black/main/Buy-Flower-Black"))()
+end)
+
+tab1:CreateButton("Flower White", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-White/main/Buy-Flower-White"))()
+end)
+
+tab1:CreateButton("Flower Red", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Red/main/Buy-Flower-Red"))()
+end)
+
+tab1:CreateButton("Phoenix(Perderas todas tus cosas y obtendras Phoenix)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Phoenix/main/Buy%20Phoenix"))()
+end)
