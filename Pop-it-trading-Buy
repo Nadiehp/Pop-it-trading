@@ -18,10 +18,6 @@ tab1:CreateButton("Buy Dart", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Pop-it-trading-buy/main/Buy%20Dart"))()
 end)
 
-tab1:CreateButton("Demigaga", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Demorgan/main/Buy-Demorgan"))()
-end)
-
 tab1:CreateButton("F", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-F/main/Buy-F"))()
 end)
