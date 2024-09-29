@@ -34,6 +34,14 @@ tab1:CreateButton("Squid", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Squid/main/Buy-Squid"))()
 end)
 
+tab1:CreateButton("Box Toy Harambe", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Box-Toy-Harambe/refs/heads/main/Box-Toy-Harambe"))()()
+end)
+
+tab1:CreateButton("Rainbow Star", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Rainbow-Star/refs/heads/main/Rainbow%20Star"))()()
+end)
+
 tab1:CreateButton("Hello Snow", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Hello-Snow/main/Buy-Hello-Snow"))()
 end)
@@ -56,6 +64,10 @@ end)
 
 tab1:CreateButton("Flower Red", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Red/main/Buy-Flower-Red"))()
+end)
+
+tab1:CreateButton("↓Fénix↓", function()
+
 end)
 
 tab1:CreateButton("Phoenix(Perderas todas tus cosas y obtendras Phoenix)", function()
