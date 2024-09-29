@@ -10,6 +10,10 @@ local window = PabloLib:Create(
 local tab1 = window:CreateTab("By NbHp")
 --Buttons
 
+tab1:CreateButton("XRay", function()
+game.Players.LocalPlayer.XRay.Value=true
+end)
+
 tab1:CreateButton("Entrar a zona VIP", function()
 game.Workspace.Map.VIP:Destroy()
 end)
