@@ -10,11 +10,15 @@ local window = PabloLib:Create(
 local tab1 = window:CreateTab("By NbHp")
 --Buttons
 
+tab1:CreateButton("Golden ticket zone", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Golden-ticket-zone/refs/heads/main/Golden%20ticket%20zone?token=GHSAT0AAAAAACVDBKVJNDXPRLG25V6REVRWZXY2LFA"))()()
+end)
+
 tab1:CreateButton("XRay", function()
 game.Players.LocalPlayer.XRay.Value=true
 end)
 
-tab1:CreateButton("Entrar a zona VIP", function()
+tab1:CreateButton("Enter the VIP zone", function()
 game.Workspace.Map.VIP:Destroy()
 end)
 
