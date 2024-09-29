@@ -11,7 +11,7 @@ local tab1 = window:CreateTab("By NbHp")
 --Buttons
 
 tab1:CreateButton("Golden ticket zone", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Golden-ticket-zone/refs/heads/main/Golden%20ticket%20zone?token=GHSAT0AAAAAACVDBKVJNDXPRLG25V6REVRWZXY2LFA"))()()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Golden-ticket-zone-/refs/heads/main/Zone%20golden%20ticket"))()()
 end)
 
 tab1:CreateButton("XRay", function()
