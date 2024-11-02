@@ -22,62 +22,63 @@ tab1:CreateButton("Enter the VIP zone", function()
 game.Workspace.Map.VIP:Destroy()
 end)
 
-tab1:CreateButton("Buy Dart", function()
+tab1:CreateToggle("Dart", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Pop-it-trading-buy/main/Buy%20Dart"))()
 end)
 
-tab1:CreateButton("F", function()
+tab1:CreateToggle("F", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-F/main/Buy-F"))()
 end)
 
-tab1:CreateButton("Squid", function()
+tab1:CreateToggle("Squid", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Squid/main/Buy-Squid"))()
 end)
 
-tab1:CreateButton("Retro Bike", function()
+tab1:CreateToggle("Retro Bike", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Retro-Bike/refs/heads/main/Retro-Bike"))()
 end)
 
-tab1:CreateButton("Box Toy Harambe", function()
+tab1:CreateToggle("Box Toy Harambe", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Box-Toy-Harambe/refs/heads/main/Box-Toy-Harambe"))()()
 end)
 
-tab1:CreateButton("Rainbow Star", function()
+tab1:CreateToggle("Rainbow Star", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Rainbow-Star/refs/heads/main/Rainbow%20Star"))()()
 end)
 
-tab1:CreateButton("Hello Snow", function()
+tab1:CreateToggle("Hello Snow", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Hello-Snow/main/Buy-Hello-Snow"))()
 end)
 
-tab1:CreateButton("Hello Scary", function()
+tab1:CreateToggle("Hello Scary", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Hello-Scary/main/Buy-Hello-Scary"))()
 end)
 
-tab1:CreateButton("Flower Rainbow", function()
+tab1:CreateToggle("Flower Rainbow", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Rainbow/main/Buy-Flower-Rainbow"))()
 end)
 
-tab1:CreateButton("Flower Black", function()
+tab1:CreateToggle("Flower Black", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Black/main/Buy-Flower-Black"))()
 end)
 
-tab1:CreateButton("Flower White", function()
+tab1:CreateToggle("Flower White", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-White/main/Buy-Flower-White"))()
 end)
 
-tab1:CreateButton("Flower Red", function()
+tab1:CreateToggle("Flower Red", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Flower-Red/main/Buy-Flower-Red"))()
 end)
 
-tab1:CreateButton("Rainbow Strawberry Cake", function()
+tab1:CreateToggle("Rainbow Strawberry Cake", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Rainbow-Strawberry-Cake/refs/heads/main/Rainbow%20Strawberry%20Cake"))()
 end)
 
-tab1:CreateButton("Gold Strawberry Cake", function()
+tab1:CreateToggle("Gold Strawberry Cake", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Gold-Strawberry-Cake/refs/heads/main/Gold%20Strawberry%20Cake"))()
 end)
-tab1:CreateButton("Strawberry Cake", function()
+
+tab1:CreateToggle("Strawberry Cake", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Strawberry-Cake-/refs/heads/main/Strawberry%20Cake"))()
 end)
 
