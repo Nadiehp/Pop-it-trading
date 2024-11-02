@@ -90,8 +90,17 @@ tab1:CreateButton("Phoenix(Perderas todas tus cosas y obtendras Phoenix)", funct
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Phoenix/main/Buy%20Phoenix"))()
 end)
 
-local tab1 = window:CreateTab("In progress")
+local tab1 = window:CreateTab("160")
 --Buttons
 
 tab1:CreateButton("Cardboard X", function()
-loadstring(game:HttpGet("
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Cardboard-X/refs/heads/main/Buy")
+end)
+
+tab1:CreateButton("Paperclip", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Paperclip/refs/heads/main/Buy")
+end)
+
+tab1:CreateButton("Apple Core", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Apple-Core/refs/heads/main/Buy")
+end)
