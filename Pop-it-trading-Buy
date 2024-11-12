@@ -26,6 +26,10 @@ tab1:CreateButton("Dart", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Pop-it-trading-buy/main/Buy%20Dart"))()
 end)
 
+tab1:CreateButton("Demorgan", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-Demorgan/refs/heads/main/Buy-Demorgan"))()()
+end)
+
 tab1:CreateButton("F", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-F/main/Buy-F"))()
 end)
@@ -40,6 +44,10 @@ end)
 
 tab1:CreateButton("Box Toy Harambe", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Box-Toy-Harambe/refs/heads/main/Box-Toy-Harambe"))()()
+end)
+
+tab1:CreateButton("Hand Rainbow", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/Buy-hand-rainbow/refs/heads/main/Hand%20rainbow"))()()
 end)
 
 tab1:CreateButton("Rainbow Star", function()
